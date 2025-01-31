@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "Open Sans", serif;
+    zoom: 110%;
+}
+#phone1{
+    position: absolute;
+    height: 65rem;
+}
+#picture{
+    position: absolute;
+    height: 50rem;
+    margin: 7.9rem 0 0 20.4rem;
+}
+#phone2{
+    position: absolute;
+    height: 55rem;
+    margin: 8rem 0 0 15rem;
+}
+#picture2{
+    height: 52rem;
+    position: absolute;
+    margin: 9.9rem 0 0 30.4rem;
+}
+.nav{
+    margin: 10rem 0 0 58rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* Элементы выстраиваются в столбец */
+    align-items: center;
+    border-radius: 2px;
+    border: solid 2px rgb(204, 200, 200);
+    width: 30rem;
+    height: 37rem;
+}
+#insta_font{
+    position: absolute;
+    width: 15rem;
+    margin: 4rem 0 0 0 ;
+}
+#email{
+    position: absolute;
+    width: 80%;
+    background-color: rgb(241, 239, 239);
+    margin: 13rem 2rem 0 2rem;
+    padding: 10px 0 10px 7px;
+    font-size: 16px;
+    border-radius: 3px; /* Убираем 'solid black', оставляем только радиус */
+    border: 2px solid rgb(204, 200, 200); /* Добавляем рамку */
+}
+#password{
+    position: absolute;
+    width: 80%;
+    margin: 16.4rem 2rem 0 2rem;
+    background-color: rgb(241, 239, 239);
+    padding: 10px 0 10px 7px;
+    font-size: 16px;
+    border-radius: 3px; /* Убираем 'solid black', оставляем только радиус */
+    border: 2px solid rgb(204, 200, 200); /* Добавляем рамку */
+}
+#btn1{
+    position: absolute;
+    background-color: rgb(103, 169, 255);
+    margin: 21rem 0 0 0;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    width: 83%;
+    padding: 10px 0 10px 7px;
+    border-radius: 10px; /* Убираем 'solid black', оставляем только радиус */
+    border: 2px solid rgb(103, 169, 255); /* Добавляем рамку */
+    cursor: pointer;
+    transition: transform 0.5s ease; /* Плавное изменение при клике */
+}
+#btn1:active {
+    transform: scale(1.1); /* Уменьшает кнопку при клике */
+}
+#btn1:hover{
+    background-color:rgb(24, 127, 255);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(24, 127, 255);
+}
+.line-container {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 25.5rem 0 0 10rem;
+    color: rgb(241, 239, 239);
+}
+.line {
+    height: 1px;
+    width: 30%;
+    background-color: rgb(136, 136, 136);
+}
+span{
+    padding: 0 10px;
+    font-size: 14px;
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+}
+#logo{
+    position: absolute;
+    font-size: 2rem;
+    color: rgb(87, 163, 255);
+    position: absolute;
+    margin: 28rem 13rem 0 0;
+}
+#log_in{
+    text-decoration: none;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(87, 163, 255);
+    margin: 28.3rem 0 0 3rem;
+}
+#log_in:active{
+    color:rgb(0, 115, 255)
+}
+#forgot{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 32rem 0 0 0;
+}
+#forgot:active{
+    color: rgb(45, 45, 45);
+}
+.nav2{
+    display: flex;
+    width: 30rem;
+    height: 6rem;
+    align-items: center;
+    position: absolute;
+    margin: 48.5rem 0 0 58rem;
+    border-radius: 2px;
+    border: solid 2px rgb(204, 200, 200);
+
+}
+#saya{
+    align-items: center;
+    position: absolute;
+    color: rgb(108, 108, 108);
+    font-size: 18px;
+    margin: 0 0 0 6rem;
+}
+#signin{
+    text-decoration: none;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(87, 163, 255);
+    width: 10rem;
+    margin: 0 0 0 5px;
+}
+#saya2{
+    align-items: center;
+    position: absolute;
+    color: rgb(108, 108, 108);
+    font-size: 18px;
+    margin: 56rem 0 0 69rem;
+}
+#appstore{
+    width: 13rem;
+    margin: 60rem 0 0 59rem;
+    height: 4rem;
+}
+#google{
+    width: 13rem;
+    margin: 60rem 0 0 1rem;
+    height: 4rem;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #737373;
+    width: 120rem;
+    margin: 5rem 0 0 0;
+}
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.footer-links a {
+    text-decoration: none;
+    color: #737373;
+}
+  
+.footer-bottom {
+    margin-top: 10px;
+}
+  

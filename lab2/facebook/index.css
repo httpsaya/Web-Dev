@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:120%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Nunito', 'Open Sans', sans-serif; /* Подключённые шрифты */
+    display: flex;
+    background-color: rgb(241, 241, 241);
+}
+.lalala{
+    margin: 16rem 2rem 2rem 25rem;
+    width: 55rem;
+}
+#image{
+    width: 20rem;
+    border-radius: 30%;
+    margin: 0 0 0 -1rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+#image:hover{
+    transform: scale(1.3);
+}
+.hello{
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 2.6rem;
+    display: flex;
+    width: 48rem;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    font-size: 20rem;
+    position: absolute;
+    color: rgb(24, 119, 242);
+    margin: 17rem 0 0 90rem;
+    transition: 0.5s ease-in-out;
+}
+#logo:hover{
+    transform: scale(1.3);
+    text-shadow: 0 0 40px rgb(24, 119, 242);
+}
+.regis{
+    border-radius: 15px;
+    align-items: center;
+    background-color: white;
+    margin: 16rem 0 0 80rem;
+    width: 40rem;
+    height: 40rem;
+    box-shadow: 0 0 30px rgb(145, 145, 145);
+    position: absolute;
+    display: none; /* Добавляем display: flex, чтобы работал flexbox */
+    flex-direction: column; /* Элементы выстраиваются в столбец */
+}
+#email{
+    position: absolute;
+    width: 34rem;
+    margin: 3rem 2rem 0 2rem;
+    padding: 20px 0 30px 30px;
+    font-size: 2rem;
+    border-radius: 15px; /* Убираем 'solid black', оставляем только радиус */
+    border: 2px solid rgb(145, 145, 145); /* Добавляем рамку */
+}
+#password{
+    position: absolute;
+    width: 34rem;
+    margin: 10rem 2rem 0 2rem;
+    padding: 20px 0 30px 30px;
+    font-size: 2rem;
+    border-radius: 15px; /* Убираем 'solid black', оставляем только радиус */
+    border: 2px solid rgb(145, 145, 145); /* Добавляем рамку */
+}
+#btn1{
+    position: absolute;
+    background-color: rgb(24, 119, 242);
+    margin: 17rem 0 0 0;
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    width: 36rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 15px; /* Убираем 'solid black', оставляем только радиус */
+    border: 2px solid rgb(24, 119, 242); /* Добавляем рамку */
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Плавное изменение при клике */
+}
+#btn1:active {
+    transform: scale(1.1); /* Уменьшает кнопку при клике */
+}
+#btn1:hover{
+    background-color:rgb(24, 127, 255);
+}
+#link{
+    text-decoration: none;
+    margin: 22.5rem 0 0 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(23, 110, 225);
+    transition: text-decoration 0.3s ease; /* Плавное изменение подчеркивания */
+}
+#link:hover{
+    text-decoration: underline;
+}
+#haha {
+    margin-top: 26rem; /* Расстояние между ссылкой и горизонтальной линией */
+    border: 0;
+    border-top: 2px solid rgb(145, 145, 145); /* Линия такого же цвета, как у подчеркивания */
+    width: 90%;
+}
+#btn2{
+    position: absolute;
+    background-color: rgb(63, 169, 25);
+    margin: 29rem 0 0 0;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    width: 50%;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 15px; /* Убираем 'solid black', оставляем только радиус */
+    border: 2px solid rgb(63, 169, 25); /* Добавляем рамку */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Плавное изменение при клике */
+}
+#btn2:active {
+    transform: scale(1.1); /* Уменьшает кнопку при клике */
+}
+#btn2:hover{
+    background-color:rgb(60, 148, 27);
+}
+#link{
+    position: absolute;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  footer {
+    text-align: left;
+    padding: 15px 20px;
+    background-color: #f8f8f8;
+    position: absolute;
+    width: 150rem;
+    font-size: 12px;
+    color: #737373;
+    margin: 72rem 0 0 0;
+}
+  
+  .footer-languages, .footer-links {
+    display: flex;    
+    width: 150rem;
+    font-size: 25px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .footer-links {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-languages a, .footer-links a {
+    text-decoration: none;
+    color: #737373;
+  }
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .footer-bottom {
+    margin-top: 10px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  #create{
+    position: absolute;
+    margin: 59rem 0 0 85rem;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  #create2{
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+  }
+  #create2:active{
+    text-decoration: underline;
+  }
