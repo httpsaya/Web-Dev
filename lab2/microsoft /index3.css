@@ -91,6 +91,8 @@ header{
 .saya3{
     position: absolute;
     margin: 30rem 0 0 10rem;
+    background-color: aliceblue;
+    padding: 20px 20px 20px 20px;
 }
 #achieve{
     font-size: 4rem;

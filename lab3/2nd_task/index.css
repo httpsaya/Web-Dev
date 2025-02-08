@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    zoom: 100%;
+    font-family: "Open Sans", serif;
+}
+.navbar{
+    background-color: pink;
+    height: 5rem;
+}
+#navtext{
+    position: absolute;
+    margin: 1.3rem 0 0 6rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: bisque;
+    cursor: pointer;
+}
+#logo{
+    font-size: 4rem;
+    width: 20rem;
+    margin: 10rem 2rem 2rem 40rem;
+    border-radius: 60%;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#logo:hover{
+    color: pink;
+    transform: scale(1.2);
+    text-shadow: 0 0 20px;
+}
+#taskInput{
+    padding: 0 0 0 20px;
+    margin: 0 2rem 0 50rem;
+    width: 40rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid pink;
+}
+button{
+    height: 2rem;
+    width: 4rem;
+    font-size: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 2px solid pink;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.3);    
+}
+button:active{
+    transform: scale(0.9);    
+}
+#taskList {
+    display: flex;
+    flex-direction: column; /* Делаем столбец */
+    gap: 5px; /* Отступ между задачами */
+    align-items: start; /* Выравниваем задачи влево */
+    margin: 4rem 0 0 45rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
