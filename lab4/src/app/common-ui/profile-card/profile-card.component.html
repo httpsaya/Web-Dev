@@ -1,0 +1,18 @@
+@if (profile) {
+    <div class="profile-card__main">
+      <img [src]="profile.image" [alt]="profile.name" class="profile-card__image">
+      <div class="profile-card__name">
+        <a [href]="profile.link" target="_blank">{{ profile.name }}</a>
+        <p>Rating: ⭐ {{ profile.rating }}</p>
+        <div class="price">
+          <p>Цена: <br>{{ profile.price }}</p>
+          <p>В рассрочку: {{ profile.blabla }}</p>
+        </div>
+        <button (click)="shareOnWhatsApp(profile.link)">WhatsApp</button>
+        <button (click)="shareOnTelegram(profile.link)">Telegram</button>
+      </div>
+    </div>
+  } @else {
+    <p>fghjk</p>
+  }
+  

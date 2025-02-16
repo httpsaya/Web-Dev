@@ -1,0 +1,9 @@
+:root{
+    --dark-color: rgb(74, 74, 74);
+    --light-color: rgb(252, 200, 249);
+    --blue-color:rgb(152, 241, 255);
+}
+body{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
