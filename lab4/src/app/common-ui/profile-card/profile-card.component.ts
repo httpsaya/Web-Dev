@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Profile } from '../../data/interfaces/profile.interface';
 
 
@@ -10,6 +10,8 @@ import { Profile } from '../../data/interfaces/profile.interface';
 })
 export class ProfileCardComponent {
   @Input() profile!: Profile;
+  @Output() removeProfile = new EventEmitter<number>(); // Добавляем Output
+
   shareOnWhatsApp(link: string) {
     window.open(`https://wa.me/?text=${encodeURIComponent(link)}`, '_blank');
   }

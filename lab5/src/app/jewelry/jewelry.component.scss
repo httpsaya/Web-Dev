@@ -1,0 +1,6 @@
+.saya1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 столбца одинаковой ширины */
+    gap: 10px 5px; /* 10px между столбцами, 5px между строками */
+    margin: 2rem 2rem 2rem 10rem;
+}
