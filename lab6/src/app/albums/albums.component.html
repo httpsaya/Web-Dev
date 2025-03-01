@@ -1,0 +1,14 @@
+<!-- <h2>Albums List</h2>
+<ul>
+  <li *ngFor="let album of albums">
+    {{ album.title }}
+    <button (click)="deleteAlbum(album.id)">Delete</button>
+  </li>
+</ul> -->
+<div *ngFor = "let album of albums">
+    <button (click) = "deleteAlbum(album.id)">Delete</button>
+    <a (click)="goToDetail(album.id)">{{ album.title }}</a>
+    <br>
+    <br>
+</div>
+<router-outlet></router-outlet>

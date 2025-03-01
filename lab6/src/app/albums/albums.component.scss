@@ -1,0 +1,22 @@
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: pink;
+    cursor: pointer;
+}
+button{
+    padding: 2px 2px;
+    border: 2px solid pink;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin: 2rem 10px 0 2rem;
+    background-color: pink;
+    transition: color 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+button:active{
+    background-color: rgb(185, 222, 255);
+    border: 2px solid rgb(185, 222, 255);
+    box-shadow: 0 0 10px rgb(185, 222, 255);
+    color: rgb(109, 109, 109);
+    transform: scale(1.1);
+}

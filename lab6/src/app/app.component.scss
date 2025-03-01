@@ -1,0 +1,32 @@
+button{
+    margin-left: 7rem;
+    align-items: center;
+    background-color: rgb(109, 109, 109);
+    border-radius: 40px;
+    padding: 10px 10px;
+    border: 2px solid rgb(109, 109, 109);
+    transition: color 0.1s ease-in-out, transform 0.1s ease-in-out;
+
+}
+a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+button:active{
+    background-color: rgb(185, 222, 255);
+    border: 2px solid rgb(185, 222, 255);
+    box-shadow: 0 0 10px rgb(185, 222, 255);
+    color: rgb(109, 109, 109);
+    transform: scale(1.1); /* Легкое увеличение при наведении */
+}
+.navbar {
+    background-color: pink;
+    gap: 2rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 5rem;
+}
